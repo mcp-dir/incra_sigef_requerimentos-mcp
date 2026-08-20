@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/incra_sigef_requerimentos-mcp",
+  "title": "INCRA SIGEF: Requerimentos",
+  "description": "INCRA SIGEF: Requerimentos, official-source lookup. Platform-hosted, pay per query with prepaid cred",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/incra_sigef_requerimentos-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_incra_sigef_requerimentos"
+    }
+  ]
+}
